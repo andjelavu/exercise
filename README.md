@@ -11,6 +11,7 @@
 3. To start the server, use Uvicorn:
   ```bash
   uvicorn main:app --reload
+  ```
 
 Welcome to test assignment for Syyclops.
 
