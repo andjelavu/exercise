@@ -1,4 +1,4 @@
-# Additional steps for backend setup
+**Additional steps for backend setup**
 1. Set up a virtual environment:
    ```bash
    python3 -m venv env
@@ -9,9 +9,9 @@
    pip install -r requirements.txt
    ```
 3. To start the server, use Uvicorn:
-  ```bash
-  uvicorn main:app --reload
-  ```
+   ```bash
+   uvicorn main:app --reload
+   ```
 
 Welcome to test assignment for Syyclops.
 
