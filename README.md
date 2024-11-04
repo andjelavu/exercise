@@ -1,3 +1,17 @@
+# Additional steps for backend setup
+1. Set up a virtual environment:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. To start the server, use Uvicorn:
+  ```bash
+  uvicorn main:app --reload
+
 Welcome to test assignment for Syyclops.
 
 This test is split into 2 sections, React and Python.
